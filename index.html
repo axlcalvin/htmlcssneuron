@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recruitment Form</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- END CSS -->
+	
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<img src="assets/maskot.svg" style="transform: scale(1.9); margin-left: 6.5rem;">
+		</div>
+		<div class="right">
+			<h1>Form Rekruitasi</h1>
+			<p>Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>
+			<form action="" method="post">
+				<label for="fullname">Fullname<strong style="color: red;">*</strong></label>
+				<input type="text" name="fullname" id="fullname" placeholder="Masukan nama">
+				<label for="email">Email<strong style="color: red;">*</strong></label>
+				<input type="email" name="email" id="email" placeholder="Masukan email">
+				<label for="phone">Nomor Telepon<strong style="color: red;">*</strong></label>
+				<input type="tel" name="phone" id="phone" placeholder="Masukan nomor telepon">
+				<label for="lowongan">Lowongan<strong style="color: red;">*</strong></label>
+				<select id="lowongan" name="lowongan">
+					<option value="">- Pilih Lowongan-</option>
+					<option value="lowongansatu">Lowongan Satu</option>
+					<option value="lowongandua">Lowongan Dua</option>
+					<option value="lowongantiga">Lowongan Tiga</option>
+					<option value="lowonganempat">Lowongan Empat</option>
+				</select>
+				<label for="posisi">Posisi<strong style="color: red;">*</strong></label>
+				<select id="posisi" name="posisi">
+					<option value="">- Pilih Posisi-</option>
+					<option value="posisisatu">Contoh Posisi#1</option>
+					<option value="posisidua">Contoh Posisi#2</option>
+					<option value="posisitiga">Contoh Posisi#3</option>
+					<option value="posisiempat">Contoh Posisi#4</option>
+				</select>
+				<input type="submit" name="submit" value="Kirim">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
